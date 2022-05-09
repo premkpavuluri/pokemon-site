@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-wrapper {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.sidebar {
+  padding: 1.5em 0;
+  width: 350px;
+  height: 100%;
+  background-color: rgb(244, 244, 244);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-size: 1.2em;
+}
+
+.sidebar li {
+  list-style: none;
+}
+
+.sidebar a {
+  padding: 0.4em 1em;
+  display: block;
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+}
+
+a:hover:not(.selected) {
+  background-color: rgba(0, 0, 0,0.1);
+}
+
+.cards-container {
+  padding: 1.5em;
+  margin-left: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.pokemon-card {
+  width: 300px;
+  border: 1px solid rgba(110, 110, 110, 0.3);
+  border-radius: 0.7em;
+  padding: 0.5em;
+  color: rgb(110, 110, 110);
+  background-color: rgb(244, 244, 244);
+  font-size: 0.7em;
+}
+
+.pokemon-image {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0deg 0% 90%);
+}
+
+.pokemon-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  padding: 0.5em 0;
+}
+
+.species-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.type {
+  color: white;
+  padding: 0.25em;
+  border-radius: 0.2em;
+  margin: 0.2em;
+}
+
+.statistics {
+  border-collapse: collapse;
+}
+
+.statistics th,
+.statistics td {
+  padding: 0.25em;
+  color: grey;
+}
+
+.statistics tr:not(:last-child) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.statistics tr :first-child {
+  text-align: left;
+}
+
+.statistics tr :last-child {
+  text-align: right;
+}
+
+.sidebar .selected {
+  color: white;
+}
+
+.all {
+  background-color: dimgray;
+}
+
+.grass {
+  background-color: mediumseagreen;
+}
+
+.poison {
+  background-color: mediumpurple;
+}
+
+.fire {
+  background-color: goldenrod;
+}
+
+.flying {
+  background-color: steelblue;
+}
+
+.water {
+  background-color: dodgerblue;
+}
+
+.bug {
+  background-color: brown;
+}
+
+.normal {
+  background-color: gray;
+}
+
+.ground {
+  background-color: peru;
+}
+
+.fairy {
+  background-color: hotpink;
+}
+
+.fighting {
+  background-color: crimson;
+}
+
+.electric {
+  background-color: hsl(51deg 73% 50%);
+}
+
+.psychic {
+  background-color: orange;
+}
+
+.rock {
+  background-color: dimgray;
+}
+
+.ice {
+  background-color: darkcyan;
+}
+
+.dragon {
+  background-color: mediumaquamarine;
+}
+
+.ghost {
+  background-color: black;
+}
+
+.dark {
+  background-color: slategray;
+}
+
+.steel {
+  background-color: steelblue;
+}
